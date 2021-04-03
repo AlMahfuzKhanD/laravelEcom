@@ -58,8 +58,12 @@ $(document).ready(function(){
         width: 25%;
     }
 
-    .trending-wrapper{
+    .trending-wrapper {
         margin: 30px;
+    }
+
+    .detail-img{
+        height: 200px;
     }
 </style>
 
