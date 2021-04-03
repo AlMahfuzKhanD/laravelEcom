@@ -17,9 +17,9 @@
 </head>
 
 <body>
-   {{View::make('header')}}
-@yield('content')
-{{View::make('footer')}}
+    {{View::make('header')}}
+    @yield('content')
+    {{View::make('footer')}}
 
 </body>
 
@@ -32,10 +32,21 @@ $(document).ready(function(){
 </script> -->
 
 <style>
-.custom-login{
-    height:500px;
-    padding-top:100px;
-}
+    .custom-login {
+        height: 500px;
+        padding-top: 100px;
+    }
+
+    img.slider-img {
+        height: 400px !important;
+    }
+
+    .custom-product{
+        height: 600px;
+    }
+    .slider-text{
+        background-color: #35443585 !important;
+    }
 </style>
 
 </html>
