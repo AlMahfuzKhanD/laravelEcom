@@ -14,6 +14,7 @@ class UserController extends Controller
         if(!$user || !Hash::check($req->password, $user->password)){
             return "Email or password Incorrect";
         }else{
+            $req->session()->put('user',$user);
             return Redirect('/');
         }
     }
