@@ -62,8 +62,14 @@ $(document).ready(function(){
         margin: 30px;
     }
 
-    .detail-img{
+    .detail-img {
         height: 200px;
+    }
+
+    .cart-list-devider{
+        border-bottom: 1px solid #000;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
     }
 </style>
 
